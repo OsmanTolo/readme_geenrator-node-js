@@ -3,6 +3,8 @@ import fs from "fs";
 
 let {
   projectTitle,
+  projectLink,
+  projectImageSrc,
   description,
   tableContents,
   installation,
@@ -20,6 +22,22 @@ let {
     message: "What is the title of your project?",
     default() {
       return "My Project";
+    },
+  },
+  {
+    type: "input",
+    name: "projectImageSrc",
+    message: "What is the source URL of your project screenshot?",
+    default() {
+      return "./assets/images/weather_now.png";
+    },
+  },
+  {
+    type: "input",
+    name: "projectLink",
+    message: "What is the link to your project?",
+    default() {
+      return "https://osmantolo.github.io/weather_now-apis-javascript/";
     },
   },
   {
@@ -89,3 +107,6 @@ let {
     },
   },
 ]);
+
+let readmeContent = `
+`;

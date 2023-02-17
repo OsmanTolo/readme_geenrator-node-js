@@ -1,6 +1,10 @@
 <br />
+<!-- PROJECT LOGO -->
 <div align="center">
-  <h1 align="center">WeatherNow or Later</h1>
+ <a href="https://github.com/github_username/repo_name">
+    <img src="./assets/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Professional README Generator</h3>
   <p align="center">
     A simple web based application that allows users to see the weather forecast for any city.
     <br />
@@ -8,25 +12,85 @@
   </p>
 </div>
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#quesions">Questions</a></li>
+  </ol>
+</details>
+
+<!-- Project Description -->
+
 ## About The Project
 
-![Screenshot of the webpage](./assets/images/weather_now.png)
+![Screenshot of the webpage](./assets/images/screenshot.png)
 
-This repo presents a weather forecast application that allows a user to live weather information and view the five day weather forecast for any city. The app will run in the browser and feature dynamically updated HTML, CSS, jQuery and vanilla JavaScript.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, inventore? Et labore ullam voluptatem consectetur eveniet esse debitis, quidem eligendi repellendus quis animi reprehenderit corporis nostrum alias nam ipsam iste dicta ipsa qui culpa ea, adipisci iusto eius.
 
-The user is presented with an aside section that contain user a user input field for typing the name of any city. Upon searching for a city, the current weather conditions for that city is presented from a query to [OpenWeather API](https://openweathermap.org/api), along with the current date using [Moment.js](https://momentjs.com/) library. The user is further presented with a five day forecast for the searched location. The user can also access their previous searched cities.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, inventore? Et labore ullam voluptatem consectetur eveniet esse debitis, quidem eligendi repellendus quis animi reprehenderit corporis nostrum alias nam ipsam iste dicta ipsa qui culpa ea, adipisci iusto eius.
 
-The repo serves as my solution to the Module 8 - Weather Dashboard Challenge of Trilogy Skills Front-End Development Boot Camp. This app wil run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript. A clean responsive and accessible user interface is presented for multiple screen sizes.
+<!-- Installation -->
 
-The project provide evidence of my ability to fetch data from a third party API, and analyse, manipulate, and present the data using JavaScript's Web APIs, and jQuery. The result is a user friendly web app that can be accessed by anyone with an internet connection.
+## Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = "ENTER YOUR API";
+   ```
+
+<!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Visit this github page [link](https://github.com/OsmanTolo/weather_now-apis-javascript) to access the website. The app is web page based, so the user can interface with the controls just by clicking UI elements on the page.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://github.com/OsmanTolo/weather_now-apis-javascript)_
+
+<!-- TEST EXAMPLES -->
+
+## Tests
+
+<!-- Contributing -->
+
+## Contributions
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<!-- CONTACT -->
 
 ## Contact
 
@@ -34,7 +98,8 @@ Osman Dumbuya - [@OsmanTolo\_](https://twitter.com/OsmanTolo_)
 
 Project Link: [https://github.com/OsmanTolo/weather_now-apis-javascript](https://github.com/OsmanTolo/weather_now-apis-javascript)
 
+<!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-- [Skills for Life](https://skillsforlife.campaign.gov.uk/courses/skills-bootcamps/)
 - [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)

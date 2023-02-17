@@ -11,7 +11,6 @@ let {
   projectSummary,
   projectImagePath,
   projectDescription,
-  tableContents,
   installation,
   usage,
   contributing,
@@ -256,5 +255,10 @@ Project Link: [${repoLink}](${repoLink})
 ## Acknowledgments
 
 - ${acknowledgement}
+
+
+<!-- FAQs -->
+## FAQs
+
 `;
 await fs.writeFile("./userREADME/README.md", readmeContent);

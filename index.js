@@ -17,6 +17,7 @@ let {
   tests,
   license,
   author,
+  authorEmail,
   acknowledgement,
   faqs,
   twitterHandle,
@@ -146,9 +147,17 @@ let {
   {
     type: "input",
     name: "author",
-    message: "Who is the author of your project?",
+    message: "Who is the author of this project?",
     default() {
       return "Osman Dumbuya";
+    },
+  },
+  {
+    type: "input",
+    name: "authorEmail",
+    message: "What is your email address?",
+    default() {
+      return "dumbuyaosman@icloud.com";
     },
   },
   {
@@ -248,9 +257,10 @@ Distributed under the ${license} License. See "LICENSE.txt" for more information
 <!-- CONTACT -->
 ## Contact
 
-${author} - [${twitterHandle}\_](https://twitter.com/${twitterHandle})
+${author} - [${twitterHandle}\_](https://twitter.com/${twitterHandle}) - ${authorEmail}
 
-Project Link: [${repoLink}](${repoLink})
+GitHub Profile: https://github.com/${githubUsername}
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments

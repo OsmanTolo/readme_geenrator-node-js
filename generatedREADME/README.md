@@ -2,7 +2,7 @@
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  <a href="https://github.com/osmanTolo/readme_geenrator-node-js ">
     <img src="https://placehold.co/80x80?font=roboto" alt="Logo" width="80" height="80">
   </a>
@@ -64,14 +64,15 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the Apache 2.0 License. See "LICENSE.txt" for more information.
+Distributed under the MIT License. See "LICENSE.txt" for more information.
 
 <!-- CONTACT -->
 ## Contact
 
-Osman Dumbuya - [@OsmanTolo__](https://twitter.com/@OsmanTolo_)
+Osman Dumbuya - [@OsmanTolo__](https://twitter.com/@OsmanTolo_) - dumbuyaosman@icloud.com
 
-Project Link: [https://github.com/OsmanTolo/readme_geenrator-node-js](https://github.com/OsmanTolo/readme_geenrator-node-js)
+GitHub Profile: https://github.com/osmanTolo
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments

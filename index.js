@@ -187,7 +187,6 @@ let {
 
 let readmeContent = `
 <br />
-
 <div align="center">
   ${generateLicenceBadge(license)}
 
@@ -220,43 +219,38 @@ let readmeContent = `
   </ol>
 </details>
 
-<!-- Project ProjectDescription -->
+
 ## About The Project
 
 ![Screenshot of the webpage](${projectImagePath})
 
 ${projectDescription}
 
-<!-- Installation -->
 ## Installation
 
 ${installation}
 
 
-<!-- Usage -->
 ## Usage
 
 ${usage}
 
 
-<!-- TEST EXAMPLES -->
 ## Tests
 
 ${tests}
 
 
-<!-- Contributing -->
 ## Contributing
 
 ${contributing}
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the ${license} License. See "LICENSE.txt" for more information.
 
-<!-- CONTACT -->
+
 ## Contact
 
 ${author} - [${twitterHandle}\_](https://twitter.com/${twitterHandle}) - ${authorEmail}
@@ -264,17 +258,16 @@ ${author} - [${twitterHandle}\_](https://twitter.com/${twitterHandle}) - ${autho
 GitHub Profile: https://github.com/${githubUsername}
 
 
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 - ${acknowledgement}
 
 
-<!-- FAQs -->
 ## FAQs
 
 ${faqs}
 `;
+
 await fs.writeFile("./generatedREADME/README.md", readmeContent);
 
 function generateLicenceBadge(license) {
@@ -290,5 +283,3 @@ function generateLicenceBadge(license) {
     return "No License";
   }
 }
-
-console.log(generateLicenceBadge(license));

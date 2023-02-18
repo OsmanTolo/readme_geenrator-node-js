@@ -1,12 +1,15 @@
 
 <br />
-<!-- PROJECT LOGO -->
+
 <div align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- <a href="https://github.com/osmanTolo/readme_geenrator-node-js ">
-    <img src="https://placehold.co/80x80?font=roboto" alt="Logo" width="80" height="80">
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+  <a href="https://github.com/osmanTolo/readme_geenrator-node-js ">
+    <img src="https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h2 align="center">Professional README Generator</h2>
+
+  <h3 align="center">Professional README Generator</h3>
+
   <p align="center">A simple web based application that allows users to see the weather forecast for any city.
     <br />
     <a href="https://osmantolo.github.io/weather_now-apis-javascript/">View Demo</a>
@@ -33,7 +36,7 @@
 <!-- Project ProjectDescription -->
 ## About The Project
 
-![Screenshot of the webpage](https://placehold.co/600x400?font=roboto)
+![Screenshot of the webpage](https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/screenshot.png)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -64,7 +67,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See "LICENSE.txt" for more information.
+Distributed under the GPL 3.0 License. See "LICENSE.txt" for more information.
 
 <!-- CONTACT -->
 ## Contact

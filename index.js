@@ -26,7 +26,7 @@ let {
     name: "projectLogoPath",
     message: "What is the source URL of your project logo?",
     default() {
-      return "https://placehold.co/80x80?font=roboto";
+      return "https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/logo.png";
     },
   },
   {
@@ -66,7 +66,7 @@ let {
     name: "projectImagePath",
     message: "What is the source URL of your project screenshot?",
     default() {
-      return "https://placehold.co/600x400?font=roboto";
+      return "https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/screenshot.png";
     },
   },
   {
@@ -187,13 +187,16 @@ let {
 
 let readmeContent = `
 <br />
-<!-- PROJECT LOGO -->
+
 <div align="center">
-${generateLicenceBadge(license)}
- <a href="https://github.com/${githubUsername}/${repoName}">
+  ${generateLicenceBadge(license)}
+
+  <a href="https://github.com/${githubUsername}/${repoName}">
     <img src="${projectLogoPath}" alt="Logo" width="80" height="80">
   </a>
-  <h2 align="center">${projectTitle}</h2>
+
+  <h3 align="center">${projectTitle}</h3>
+
   <p align="center">${projectSummary}
     <br />
     <a href="${projectDeploymentLink}">View Demo</a>
@@ -278,11 +281,11 @@ function generateLicenceBadge(license) {
   if (license === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   } else if (license === "Apache 2.0") {
-    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    return "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "GPL 3.0") {
     return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
   } else if (license === "BSD 3") {
-    return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    return "[![License: BSD 3](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
   } else if (license === "None") {
     return "No License";
   }

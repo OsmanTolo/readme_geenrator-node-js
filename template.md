@@ -1,7 +1,9 @@
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
- <h3 align="center" style="text-transform: uppercase">License MIT</h3>
+ <!-- <h3 align="center" style="text-transform: uppercase">License MIT</h3> -->
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
  <a href="https://github.com/github_username/repo_name">
     <img src="./assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>

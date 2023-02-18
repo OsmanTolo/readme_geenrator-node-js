@@ -26,7 +26,7 @@ let {
     name: "projectLogoPath",
     message: "What is the source URL of your project logo?",
     default() {
-      return "./assets/images/logo.png";
+      return "https://placehold.co/80x80?font=roboto";
     },
   },
   {
@@ -66,7 +66,7 @@ let {
     name: "projectImagePath",
     message: "What is the source URL of your project screenshot?",
     default() {
-      return "./assets/images/screenshot.png";
+      return "https://placehold.co/600x400?font=roboto";
     },
   },
   {
@@ -88,9 +88,9 @@ let {
   {
     type: "input",
     name: "projectDescription",
-    message: "What is the projectDescription of your project?",
+    message: "What is the desxription of your project?",
     default() {
-      return "This is my project";
+      return "There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.";
     },
   },
   {
@@ -172,7 +172,7 @@ let {
     name: "twitterHandle",
     message: "What is your Twitter handle?",
     default() {
-      return "@osmantolo";
+      return "@OsmanTolo_";
     },
   },
 ]);
@@ -181,7 +181,7 @@ let readmeContent = `
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
-<h3 align="center" style="text-transform: uppercase">License: ${license}</h3>
+${generateLicenceBadge(license)}
  <a href="https://github.com/${githubUsername}/${repoName}">
     <img src="${projectLogoPath}" alt="Logo" width="80" height="80">
   </a>
@@ -212,7 +212,7 @@ let readmeContent = `
 <!-- Project ProjectDescription -->
 ## About The Project
 
-[![Screenshot of the webpage]("${projectImagePath}")]
+![Screenshot of the webpage](${projectImagePath})
 
 ${projectDescription}
 
@@ -264,3 +264,19 @@ Project Link: [${repoLink}](${repoLink})
 ${faqs}
 `;
 await fs.writeFile("./generatedREADME/README.md", readmeContent);
+
+function generateLicenceBadge(license) {
+  if (license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  } else if (license === "Apache 2.0") {
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  } else if (license === "GPL 3.0") {
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+  } else if (license === "BSD 3") {
+    return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+  } else if (license === "None") {
+    return "No License";
+  }
+}
+
+console.log(generateLicenceBadge(license));

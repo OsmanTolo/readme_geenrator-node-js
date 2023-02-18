@@ -5,7 +5,6 @@ let {
   projectLogoPath,
   githubUsername,
   repoName,
-  repoLink,
   projectTitle,
   projectDeploymentLink,
   projectSummary,

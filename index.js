@@ -16,9 +16,9 @@ let {
   contributing,
   tests,
   license,
-  questions,
   author,
   acknowledgement,
+  faqs,
   twitterHandle,
 } = await inquirer.prompt([
   {
@@ -131,7 +131,7 @@ let {
     name: "tests",
     message: "How do you test your project?",
     default() {
-      return "If you have any tests you would like to run, please list them here.";
+      return "Software testing assesses the completeness and quality of computer software. Usually done by running part of a system (like a web application) and comparing the actual behavior to the expected behavior.If you have any tests you would like to run, please list them here";
     },
   },
   {
@@ -141,14 +141,6 @@ let {
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
     default() {
       return "MIT";
-    },
-  },
-  {
-    type: "input",
-    name: "questions",
-    message: "What are your questions?",
-    default() {
-      return "Please how can I run this project on macOS?";
     },
   },
   {
@@ -169,6 +161,14 @@ let {
   },
   {
     type: "input",
+    name: "faqs",
+    message: "What are the FAQs for this project?",
+    default() {
+      return "- Can I run this using macOS?\n Yes this is the best way to do it.\n - How do I contact you?\n The best place to get hold of me is via twitter.\n - How do I contribute to this project?\n Read the contribution details in the section above.\n - How do I test this project?\n Follow the instructions provided in the test section above.";
+    },
+  },
+  {
+    type: "input",
     name: "twitterHandle",
     message: "What is your Twitter handle?",
     default() {
@@ -181,13 +181,14 @@ let readmeContent = `
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
+<h3 align="center" style="text-transform: uppercase">License: ${license}</h3>
  <a href="https://github.com/${githubUsername}/${repoName}">
-    <img src=${projectLogoPath} alt="Logo" width="80" height="80">
+    <img src="${projectLogoPath}" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">${projectTitle}</h3>
+  <h2 align="center">${projectTitle}</h2>
   <p align="center">${projectSummary}
     <br />
-    <a href=${projectDeploymentLink}>View Demo</a>
+    <a href="${projectDeploymentLink}">View Demo</a>
   </p>
 </div>
 
@@ -204,14 +205,14 @@ let readmeContent = `
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#quesions">Questions</a></li>
+    <li><a href="#faqs">FAQs</a></li>
   </ol>
 </details>
 
 <!-- Project ProjectDescription -->
 ## About The Project
 
-[![Screenshot of the webpage](${projectImagePath})]
+[![Screenshot of the webpage]("${projectImagePath}")]
 
 ${projectDescription}
 
@@ -260,5 +261,6 @@ Project Link: [${repoLink}](${repoLink})
 <!-- FAQs -->
 ## FAQs
 
+${faqs}
 `;
-await fs.writeFile("./userREADME/README.md", readmeContent);
+await fs.writeFile("./generatedREADME/README.md", readmeContent);

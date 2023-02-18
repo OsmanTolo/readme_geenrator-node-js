@@ -2,13 +2,14 @@
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
+<h3 align="center" style="text-transform: uppercase">License: MIT</h3>
  <a href="https://github.com/osmanTolo/readme_geenrator-node-js ">
-    <img src=./assets/images/logo.png alt="Logo" width="80" height="80">
+    <img src="./assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Professional README Generator</h3>
+  <h2 align="center">Professional README Generator</h2>
   <p align="center">A simple web based application that allows users to see the weather forecast for any city.
     <br />
-    <a href=https://osmantolo.github.io/weather_now-apis-javascript/>View Demo</a>
+    <a href="https://osmantolo.github.io/weather_now-apis-javascript/">View Demo</a>
   </p>
 </div>
 
@@ -25,14 +26,14 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#quesions">Questions</a></li>
+    <li><a href="#faqs">FAQs</a></li>
   </ol>
 </details>
 
 <!-- Project ProjectDescription -->
 ## About The Project
 
-[![Screenshot of the webpage](./assets/images/screenshot.png)]
+[![Screenshot of the webpage]("./assets/images/screenshot.png")]
 
 This is my project
 
@@ -51,7 +52,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- TEST EXAMPLES -->
 ## Tests
 
-If you have any tests you would like to run, please list them here.
+Software testing assesses the completeness and quality of computer software. Usually done by running part of a system (like a web application) and comparing the actual behavior to the expected behavior.If you have any tests you would like to run, please list them here
 
 
 <!-- Contributing -->
@@ -76,3 +77,16 @@ Project Link: [https://github.com/OsmanTolo/readme_geenrator-node-js](https://gi
 ## Acknowledgments
 
 - [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+
+<!-- FAQs -->
+## FAQs
+
+- Can I run this using macOS?
+ Yes this is the best way to do it.
+ - How do I contact you?
+ The best place to get hold of me is via twitter.
+ - How do I contribute to this project?
+ Read the contribution details in the section above.
+ - How do I test this project?
+ Follow the instructions provided in the test section above.

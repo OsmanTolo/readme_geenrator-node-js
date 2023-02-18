@@ -1,10 +1,11 @@
 <br />
 <!-- PROJECT LOGO -->
 <div align="center">
+ <h3 align="center" style="text-transform: uppercase">License MIT</h3>
  <a href="https://github.com/github_username/repo_name">
     <img src="./assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Professional README Generator</h3>
+  <h2 align="center">Professional README Generator</h2>
   <p align="center">
     A simple web based application that allows users to see the weather forecast for any city.
     <br />
@@ -25,7 +26,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#quesions">Questions</a></li>
+    <li><a href="#faqs">FAQs</a></li>
   </ol>
 </details>
 
@@ -69,6 +70,8 @@ _For more examples, please refer to the [Documentation](https://github.com/Osman
 
 ## Tests
 
+Software testing assesses the completeness and quality of computer software. Usually done by running part of a system (like a web application) and comparing the actual behavior to the expected behavior.
+
 <!-- Contributing -->
 
 ## Contributions
@@ -103,3 +106,11 @@ Project Link: [https://github.com/OsmanTolo/weather_now-apis-javascript](https:/
 ## Acknowledgments
 
 - [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+<!-- FAQs -->
+
+## FAQs
+
+- How do I contact you?
+- How can I contribute to this project?
+- Can I run this using macOS?

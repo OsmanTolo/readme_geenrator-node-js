@@ -11,7 +11,7 @@
 
 ![Screenshot of the webpage](./assets/images/project_screenshot.png)
 
-This repo presents a command line interface (CLI) application that allows a user to dynamically generate a high-quality README for their project repository. The application will run in the users CLI of their integrated development environment (IDE) using [Node.js]([OpenWeather API](https://openweathermap.org/api).
+This repo presents a command line interface (CLI) application that allows a user to dynamically generate a high-quality README for their project repository. The application will run in the users CLI of their integrated development environment (IDE) using [Node.js](https://nodejs.org/en/).
 
 The user is presented with a series of questions using the [Inquirer package](https://www.npmjs.com/package/inquirer), which requirres the user to input answers about their project. The answers provided are used to fill in the different sections of the README.
 

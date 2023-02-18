@@ -188,6 +188,7 @@ let {
 let readmeContent = `
 <br />
 <div align="center">
+
   ${generateLicenceBadge(license)}
 
   <a href="https://github.com/${githubUsername}/${repoName}">

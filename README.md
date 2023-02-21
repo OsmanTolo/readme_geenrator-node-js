@@ -4,6 +4,7 @@
   <p align="center">
     A command-line application that dynamically generates a professional README.md file based on a user's input.
     <br />
+    <a href="http://127.0.0.1:5500/index.html">View Walthrough Video</a>
   </p>
 </div>
 

@@ -2,7 +2,7 @@
 <br />
 <div align="center">
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: BSD 3](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   <a href="https://github.com/osmanTolo/readme_generator-node-js">
     <img src="https://raw.githubusercontent.com/OsmanTolo/readme_generator-node-js/main/assets/images/logo.png" alt="Logo" width="80" height="80">
@@ -12,7 +12,7 @@
 
   <p align="center">A simple web based application that allows users to see the weather forecast for any city.
     <br />
-    <a href="https://osmantolo.github.io/readme_generator-node-js/">View Demo</a>
+    <a href="https://osmantolo.github.io/readme_generator-node-js/">View the walkthrough video</a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See "LICENSE.txt" for more information.
+Distributed under the BSD 3 License. See "LICENSE.txt" for more information.
 
 
 ## Contact
@@ -75,11 +75,6 @@ GitHub Profile: https://github.com/osmanTolo
 ## Acknowledgments
 
 - [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
- - 
- - 
- - 
- - 
-
 
 
 ## FAQs

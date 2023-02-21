@@ -2,17 +2,17 @@
 <br />
 <div align="center">
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  <a href="https://github.com/osmanTolo/readme_geenrator-node-js ">
-    <img src="https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/osmanTolo/readme_generator-node-js">
+    <img src="https://raw.githubusercontent.com/OsmanTolo/readme_generator-node-js/main/assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Professional README Generator</h3>
 
   <p align="center">A simple web based application that allows users to see the weather forecast for any city.
     <br />
-    <a href="https://osmantolo.github.io/weather_now-apis-javascript/">View Demo</a>
+    <a href="https://osmantolo.github.io/readme_generator-node-js/">View Demo</a>
   </p>
 </div>
 
@@ -36,9 +36,9 @@
 
 ## About The Project
 
-![Screenshot of the webpage](https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/screenshot.png)
+![Screenshot of the webpage](https://raw.githubusercontent.com/OsmanTolo/readme_generator-node-js/main/assets/images/screenshot.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
 ## Installation
 
@@ -62,7 +62,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## License
 
-Distributed under the GPL 3.0 License. See "LICENSE.txt" for more information.
+Distributed under the MIT License. See "LICENSE.txt" for more information.
 
 
 ## Contact
@@ -75,6 +75,11 @@ GitHub Profile: https://github.com/osmanTolo
 ## Acknowledgments
 
 - [Othneil Drew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+ - 
+ - 
+ - 
+ - 
+
 
 
 ## FAQs

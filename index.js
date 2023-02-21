@@ -26,7 +26,7 @@ let {
     name: "projectLogoPath",
     message: "What is the source URL of your project logo?",
     default() {
-      return "https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/logo.png";
+      return "https://raw.githubusercontent.com/OsmanTolo/readme_generator-node-js/main/assets/images/logo.png";
     },
   },
   {
@@ -42,7 +42,7 @@ let {
     name: "repoName",
     message: "What is the name of your repository?",
     default() {
-      return "readme_geenrator-node-js ";
+      return "readme_generator-node-js";
     },
   },
   {
@@ -50,7 +50,7 @@ let {
     name: "repoLink",
     message: "What is the link to your repository?",
     default() {
-      return "https://github.com/OsmanTolo/readme_geenrator-node-js";
+      return "https://github.com/OsmanTolo/readme_generator-node-js";
     },
   },
   {
@@ -66,7 +66,7 @@ let {
     name: "projectImagePath",
     message: "What is the source URL of your project screenshot?",
     default() {
-      return "https://raw.githubusercontent.com/OsmanTolo/readme_geenrator-node-js/main/assets/images/screenshot.png";
+      return "https://raw.githubusercontent.com/OsmanTolo/readme_generator-node-js/main/assets/images/screenshot.png";
     },
   },
   {
@@ -74,7 +74,7 @@ let {
     name: "projectDeploymentLink",
     message: "What is the link to your project?",
     default() {
-      return "https://osmantolo.github.io/weather_now-apis-javascript/";
+      return "https://osmantolo.github.io/readme_generator-node-js/";
     },
   },
   {
@@ -88,17 +88,9 @@ let {
   {
     type: "input",
     name: "projectDescription",
-    message: "What is the desxription of your project?",
+    message: "What is the description of your project?",
     default() {
-      return "There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.";
-    },
-  },
-  {
-    type: "input",
-    name: "tableContents",
-    message: "List your table of contents",
-    default() {
-      return "";
+      return "There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.";
     },
   },
   {
